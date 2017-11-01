@@ -33,12 +33,14 @@ label {
 }
 
 .jumbotron {
-    box-shadow:    0 0 20px black;
+    -webkit-box-shadow:    0 0 20px black;
+            box-shadow:    0 0 20px black;
     text-align: center;
 }
 
 .buttonShadow {
-     box-shadow:    0 0 20px gray;
+     -webkit-box-shadow:    0 0 20px gray;
+             box-shadow:    0 0 20px gray;
      text-shadow:   2px 2px 4px rgba(0, 0, 0, 0.55),
                     3px 3px 5px rgba(0, 0, 0, 0.2);
 }
@@ -80,7 +82,6 @@ label {
 .btn:focus,.btn:active {
    outline: none !important;
 }
-
 
 
 
